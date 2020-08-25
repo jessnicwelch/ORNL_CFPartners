@@ -1,15 +1,15 @@
 # Guidelines for Data Stored using the CSV File Format
 
-The proposed CSV standard is derived from guidelines and recommendations defined by some popular Earth Science communities. The following details the guidelines and expectations for each data file that can responsibly be formatted as a flat file. Many of the standards correspond with fields included in the File-Level Metadata (FLMD) Guide. "Required' fields represent the ideal file for interoperable and machine-readable data. Descriptions with the phrase "must be documented elsewhere" references a yet-to-be-determined implementation of FLMD capture. These standards are a result of research and community feedback.  
+The proposed CSV standard is derived from guidelines and recommendations defined by some popular Earth Science communities. The following details the guidelines and expectations for each data file that can responsibly be formatted as a flat file. Many of the standards correspond with fields included in the File-Level Metadata (FLMD) Guide. "Required' fields represent the ideal file for interoperable and machine-readable data. Descriptions with the phrase "must be documented elsewhere" references a yet-to-be-determined implementation. These standards are a result of research and community feedback.  
 
 **1. Use the standard US-ASCII character set without extensions.** *REQUIRED*  
 Data stored using the comma separated values format (CSV) ([RFC 4180](https://tools.ietf.org/html/rfc4180)) must use the standard seven-bit American Standard Code for Information Interchange (US-ASCII) characters ([RFC 20](https://tools.ietf.org/html/rfc20)) (Table 1).  
 
 Typically, programs used to create the data will use the UTF-8 character-encoding scheme by default, which includes all the US-ASCII charcters. However, the standard presented here requires that no extended characters be used beyond the 127 characters defined in the US-ASCII character set.  
 
-The US-ASCII characters include all upper- and lowercase characters, digits, and common punctuation used in the English language. Given that English is considered the language of science, it is unlikley that data submissions will include characters not contained in the standard ASCII character set.  
+The US-ASCII characters include all upper- and lowercase characters, digits, and common punctuation used in the English language. Most English-language dataset submissions will require only characters included in the standard ASCII character set.  
 
-This requirement will increase machine readability and interoperability, as  the extended characters can disrupt the rendering and interpretation of data in some programs. Most data providers will not need to do anything to meet this standard.  
+This requirement will increase machine readability and interoperability, as the extended characters can disrupt the rendering and interpretation of data in some programs. Most data providers will not need to do anything to meet this standard.  
 
 **Table 1.** The ASCII Character Set. Control characters&mdash;0 through 32 and 127&mdash;can be ignored by most data providers.  
 ![Table 1. ASCII Table](asciitable.png)  
@@ -31,7 +31,7 @@ variable_1,variable_2,variable_3,
 aaa,bbb,ccc,
 ```
 
-If a comma is needed within a cell (i.e., not meant as a delimiter), use a vertical bar "|" (ASCII Code 124) instead of a comma.
+If a comma is needed within a cell (i.e., the comma is not meant as a delimiter), use a vertical bar "|" (ASCII Code 124) instead of a comma.
 
 **&mdash;Example: Vertical Bar Used as Comma**  
 ```
@@ -71,7 +71,7 @@ lowland,2,,
 highland,2,12
 ```
  
-The file must contain the same number of columns across all of its rows, and the first row should be the variable names. Thus, all rows (records) will include the same data variables (columns).
+The file must contain the same number of columns across all of its rows, and the first row should be the variable names. Thus, all rows (i.e., records) will include the same data variables (i.e., columns).
 
 **&mdash;Example: Inconsistent Column Number**  
 The first row has only two columns while the reminder have three columns.
@@ -85,7 +85,7 @@ highland,2,12,
 notes,all sites were sampled
 ```
 
-**5. Use unique, descriptive variable names that follow the variable naming conventions.** *REQUIRED*  
+**5. Use unique, descriptive variable names.** *REQUIRED*  
 Unique variable names must be used, but no spaces between characters. Use names that are descriptive so that they are easily distinguished from one another and intelligible.
 
 **&mdash;Example: Descriptive Variable Names**  
@@ -94,9 +94,9 @@ site,sample_year,soil_H20,mean_snow,sand_depth,pH
 ```
 
 **6. Provide variable units of measurement.** *RECOMMENDED*  
-Provide the units of measurement for the variable in the variable name following the same naming conventions for the variable. If units are not provided here, it must be documented elsewhere.
+Provide the units of measurement for the variable in the variable name with no spaces. If units are not provided in the variable name, they must be documented elsewhere.
 
-Data should be represented with units of measurement approved by the International System of Units (SI system), derived units (such as degree Celsius), or non-SI units accepted for use with SI (such as minute, hour, day, mixing ratio). Units of measurement and representations that do not conform to the international standards must be documented elsewhere.
+Data should be represented with units of measurement approved by the International System of Units ([SP 330](https://www.nist.gov/pml/special-publication-330)), derived units (e.g., degree Celsius), or non-SI units accepted for use with SI (e.g., minute, hour, day, mixing ratio). Explanations of units that do not conform to the international standards must be documented elsewhere.
 
 **&mdash;Example: Units of Measurement**
 ```
@@ -129,7 +129,7 @@ EVR,103.7,vascular
 EVV,87.1,moss
 ```
 
-An explanation for missing values (i.e., flags) can be reported as a separate variable (column) as described below. If a coding system is used to describe the missing data value, it must be documented elsewhere.
+An explanation for missing values (i.e., flags) can be reported as a separate variable (i.e., in an adjacent column) as described below. If a coding system is used to describe the missing data value, it must be documented elsewhere.
 
 **&mdash;Example: Missing Data Value Flags**  
 The variable "soil_depth_cm_flag" provides a coding system (i.e, factor data type) to describe "soil_depth_cm".
@@ -141,7 +141,7 @@ plot,soil_depth_cm,soil_depth_cm_flag,
 ```
 
 **9. Provide variable measurement uncertainty, limits of detection, data quality indicators, and other flags.** *OPTIONAL*  
-Measurement uncertainty, limits of detection, data quality indicators, and other flags should be reported as a separate variable (column) but within the same row for the corresponding value it describes. If a coding system is used to describe the flags, it must be documented elsewhere.
+Measurement uncertainty, limits of detection, data quality indicators, and other flags should be reported as a separate variable (i.e., in an adjacent column) but within the same row for the corresponding value it describes. If a coding system is used to describe the flags, it must be documented elsewhere.
 
 **&mdash;Example: Limits of Detection**  
 The variable "iodine_LOD" provides numerical limits of detection.
@@ -163,9 +163,9 @@ grid,albedo,albedo_flag,
 **10. Provide temporal data in UTC format.** *REQUIRED*  
 All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard ([RFC 3339](https://tools.ietf.org/html/rfc4180)). All times must be preceded with a date.
 
-In cases where the entire file consists of temporal data collected for a single date and time, the date and time must be documented elsewhere.
+In cases where the entire file consists of temporal data collected for a single date and time, the date and time must be documented elsewhere if not provided as a variable.
 
-Temporal data using different standards can be provided as a separate variable (column) in addition to UTC format.
+Temporal data using different standards can be provided as a separate variable (i.e., in an adjacent column) in addition to UTC format.
 
 **&mdash;Example: Temporal data reported in UTC format and local time.**
 ```
@@ -176,7 +176,7 @@ date,date_time,local_date_time
 ```
 
 **11. Specify timestamps as the start, stop, midpoint, or average of measurement period.** *RECOMMENDED*  
-For timestamped data, the variable name should specify if the measurement is the start, stop, or midpoint or it must be documented elsewhere.
+For timestamped data, the variable name should specify if the measurement is the start, stop, or midpoint or it must be documented elsewhere if not provided as a variable.
 
 **&mdash;Example: Timestamped data where the start and stop times for each record is indicated.**
 ```
@@ -187,7 +187,7 @@ Start_UTC,Stop_UTC,N2O_PPB,
 ```
 
 **12. Provide spatial data in WGS84 decimal format (EPSG:4326).** *REQUIRED*  
-All geographic coordinates must be provided in WGS84 decimal format ([EPSG:4326](https://epsg.io/4326)). Latitude and longitude must be provided as separate variables.
+All geographic coordinates must be provided in WGS84 decimal format ([EPSG 4326](https://epsg.io/4326)). Latitude and longitude must be provided as separate variables.
 
 **&mdash;Example: Spatial data reported in WGS84 format only.**
 ```
@@ -196,7 +196,7 @@ MTC,64.9189321,-147.82157,
 AZT,64.9189167,-147.8216,
 ```
 
-Spatial data using different standards can be provided as a separate variable (column) in addition to WGS84 decimal format.
+Spatial data using different standards can be provided as a separate variable (i.e., in an adjacent column) in addition to WGS84 decimal format.
 
 **&mdash;Example: Spatial data reported in WGS84 and UTM format.**
 ```
@@ -205,4 +205,4 @@ MTC,64.9189321,-147.82157,461140.98,7199672.10,
 AZT,64.9189167,-147.8216,461139.54,7199670.45,
 ```
 
-In cases where the entire file consists of measurements collected at a single location, a pair of geographic coordinates must be documented elsewhere.
+In cases where the entire file consists of measurements collected at a single location, a pair of geographic coordinates must be documented elsewhere if not provided as a variable.
