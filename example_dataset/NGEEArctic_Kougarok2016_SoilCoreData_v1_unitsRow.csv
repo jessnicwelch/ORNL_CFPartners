@@ -1,0 +1,65 @@
+Region,Locale,Ecotype,PlotID,CoreRep,CoreDiameter,DepthTop,DepthBottom,Horizon,Sand_percent,Clay_percent,Silt_percent,pH,GWC,BulkDensity,BulkSoilN,BulkSoilC,TN,DOC,DIN,P,DON,Notes
+NA,NA,NA,NA,NA,cm,cm,cm,TextureBased,percent,percent,percent,-9999,-9999,gpercm3,percent,percent,mgNpergdrysoil,mgCpergdrysoil,mgNpergdrysoil,ugPpergdrysoil,mgNpergdrysoil,NA
+Seward Peninsula,Kougarok,Alder shrubland,AS-1,A,7.62,9.5,10,mineral,45.4,40.2,14.4,4.89,71.71,0.412,1.286,28.349,0.06,0.73,0.01,0,0.06,Texture analysis on combined mineral sample from AS-1/Core A/9.5-10cm with AS-1/CoreB/9-10cm
+Seward Peninsula,Kougarok,Alder shrubland,AS-1,B,7.62,9,10,mineral,45.4,40.2,14.4,5,31.2,1.896,0.462,8.655,0.03,0.37,0,0,0.03,Texture analysis on combined mineral sample from AS-1/Core A/9.5-10cm with AS-1/CoreB/9-10cm
+Seward Peninsula,Kougarok,Alder shrubland,AS-1,A,7.62,0,9.5,organic,-9999,-9999,-9999,4.9,77.23,0.128,1.166,24.508,0.11,1.42,0.01,3.48,0.1,NA
+Seward Peninsula,Kougarok,Alder shrubland,AS-1,B,7.62,0,9,organic,-9999,-9999,-9999,4.85,42.22,0.349,0.488,12.292,0.03,0.76,0.01,0,0.03,NA
+Seward Peninsula,Kougarok,Alder shrubland,AS-2,A,7.62,0,7,organic,-9999,-9999,-9999,4.69,85.63,0.075,2.766,47.313,0.19,1.19,0.03,19.91,0.16,NA
+Seward Peninsula,Kougarok,Alder shrubland,AS-2,B,7.62,0,3,organic,-9999,-9999,-9999,5.11,134.39,0.082,2.464,39.42,0.14,1.08,0.01,13.7,0.13,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,B,7.62,20,30,mineral,53.4,10.2,36.4,5.9,47.38,0.711,0.481,10.108,0.02,0.09,0,0,0.02,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,B,7.62,30,35,mineral,55.1,10.4,34.5,6.1,51.82,0.563,0.439,9.86,0.01,0.06,0,0,0.01,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,A,7.62,20,28,mineral,58.1,12.7,29.2,5.8,28.4,0.987,0.279,5.216,0.01,0.08,0,0,0.01,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,B,7.62,14,20,mineral,59.7,12.3,28,5.5,59.36,0.343,0.659,14.686,0.02,0.35,0,0,0.02,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,A,7.62,6,10,mineral,59.9,13.3,26.8,5,39.5,0.484,0.374,9.873,0.02,0.32,0,0,0.02,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,A,7.62,10,20,mineral,61.3,10.4,28.3,5.9,29.82,0.916,0.325,5.825,0.02,0.07,0,0,0.02,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,A,7.62,0,6,organic,-9999,-9999,-9999,4.52,90.96,0.165,0.935,28.133,0.06,2.35,0,0,0.06,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,B,7.62,0,10,organic,-9999,-9999,-9999,4.47,121.45,0.071,1.341,42.328,0.08,1.94,0,2.1,0.07,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-1,B,7.62,10,14,organic,-9999,-9999,-9999,4.66,136.67,0.094,1.307,37.789,0.07,2.72,0,0,0.06,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-3,A,7.62,8,10,mineral,54.5,13.9,31.7,5.1,37.37,0.757,0.577,13.488,0.02,0.23,0,0,0.02,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-3,A,7.62,0,8,organic,-9999,-9999,-9999,4.76,85.73,0.118,1.15,42.871,0.05,0.79,0,1.75,0.04,NA
+Seward Peninsula,Kougarok,Dwarf shrub lichen tundra,DSLT-3,B,7.62,0,5,organic,-9999,-9999,-9999,4.58,43.93,0.185,1.06,35.053,0.03,1.49,0,0,0.03,NA
+Seward Peninsula,Kougarok,Non-acidic mountain complex,NAMC-1,B,7.3,0,4.5,mineral,76.7,6.3,17,6.5,22.88,0.613,0.341,7.091,0.02,0.23,0,0,0.02,Bulk soil %C run on Leco
+Seward Peninsula,Kougarok,Non-acidic mountain complex,NAMC-1,A,7.3,0,5,mineral,66.7,10.3,23.1,6.5,23.36,0.554,0.285,5.067,0.02,0.1,0,0,0.02,NA
+Seward Peninsula,Kougarok,Non-acidic mountain complex,NAMC-3,B,7.3,0,6,mineral,72.8,8.3,18.9,6.4,21.34,0.435,0.607,12.066,0.03,0.34,0.01,0,0.02,NA
+Seward Peninsula,Kougarok,Non-acidic mountain complex,NAMC-3,A,7.3,0,5,organic,-9999,-9999,-9999,6.24,30.01,0.257,0.93,21.199,0.07,0.44,0,7.66,0.07,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-1,B,7.62,10,20,mineral,40.8,23.6,35.6,5.1,59.02,0.477,0.257,8.695,0.01,0.12,0,0,0.01,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-1,A,7.62,10,20,mineral,42.2,19.8,38,5.1,218.07,0.22,1.135,29.846,0.02,0.3,0,0,0.02,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-1,A,7.62,20,24,mineral,46.1,22,31.9,5.4,30.94,0.639,0.081,2.613,0.01,0.13,0,0,0.01,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-1,A,7.62,0,10,organic,-9999,-9999,-9999,4.32,352.43,0.043,0.606,44.741,0.12,2.7,0,46.6,0.12,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-1,B,7.62,0,10,organic,-9999,-9999,-9999,4.64,263.47,0.055,0.542,45.894,0.09,3.56,0,32.09,0.09,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,A,7.62,30,35,mineral,36.8,42.4,20.9,4.7,394.39,0.109,1.639,46.77,0.07,0.73,0,0,0.07,Texture analysis on combined mineral sample from TT-2/CoreA/30-35cm with TT-2/CoreB/26-30cm and TT-2/CoreB/30-33ccm
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,B,7.62,26,30,mineral,36.8,42.4,20.9,5.4,368.53,0.097,1.271,44.086,0.07,1.04,0,0,0.07,Texture analysis on combined mineral sample from TT-2/CoreA/30-35cm with TT-2/CoreB/26-30cm and TT-2/CoreB/30-33ccm
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,B,7.62,30,33,mineral,36.8,42.4,20.9,4.9,412.94,0.109,1.528,43.147,0.09,1.61,0,0,0.09,Texture analysis on combined mineral sample from TT-2/CoreA/30-35cm with TT-2/CoreB/26-30cm and TT-2/CoreB/30-33ccm
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,A,7.62,0,10,organic,-9999,-9999,-9999,4.21,353.24,0.017,0.673,47.523,0.19,4.65,0.01,35.81,0.18,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,A,7.62,10,20,organic,-9999,-9999,-9999,4.88,247.66,0.062,1.116,47.001,0.16,3.27,0.01,34.24,0.15,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,A,7.62,20,30,organic,-9999,-9999,-9999,5.27,325.99,0.092,1.43,46.468,0.07,0.96,0,4.18,0.06,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,B,7.62,0,10,organic,-9999,-9999,-9999,4.25,410.4,0.011,0.379,47.781,0.08,2.44,0.01,15.15,0.07,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,B,7.62,10,20,organic,-9999,-9999,-9999,4.77,507.85,0.024,0.549,43.422,0.09,3.35,0,5.82,0.09,NA
+Seward Peninsula,Kougarok,Tussock tundra,TT-2,B,7.62,20,26,organic,-9999,-9999,-9999,5.19,425.25,0.044,0.81,43.175,0.1,2.07,0,0,0.1,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,B,7.62,0,10,organic,-9999,-9999,-9999,4.58,421.59,0.054,0.681,47.134,0.16,3.57,0,14.62,0.16,Bulk soil %C run on Leco
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,A,7.62,22,30,mineral,49.9,16.4,33.7,5.5,382.87,0.124,1.717,41.489,0.11,2.94,0,0,0.11,"Texture analysis on combined mineral sample TTWBT-1, Core A, 22-30cm with TTWBT-1, Core A ,30-34cm and TTWBT-1, Core B, 28-30cm and TTWBT-1, Core B 30-32cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,A,7.62,30,34,mineral,49.9,16.4,33.7,5.5,337.1,0.207,1.853,42.191,0.09,1.17,0.01,0,0.08,"Texture analysis on combined mineral sample TTWBT-1, Core A, 22-30cm with TTWBT-1, Core A ,30-34cm and TTWBT-1, Core B, 28-30cm and TTWBT-1, Core B 30-32cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,B,7.62,28,30,mineral,49.9,16.4,33.7,5.4,409.52,0.217,1.933,45.272,0.15,1,0,0,0.15,"Texture analysis on combined mineral sample TTWBT-1, Core A, 22-30cm with TTWBT-1, Core A ,30-34cm and TTWBT-1, Core B, 28-30cm and TTWBT-1, Core B 30-32cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,B,7.62,30,32,mineral,49.9,16.4,33.7,5.3,303.86,0.268,1.732,41.248,0.07,1.19,0,0,0.07,"Texture analysis on combined mineral sample TTWBT-1, Core A, 22-30cm with TTWBT-1, Core A ,30-34cm and TTWBT-1, Core B, 28-30cm and TTWBT-1, Core B 30-32cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,A,7.62,0,10,organic,-9999,-9999,-9999,4.35,269.25,0.056,1.168,45.713,0.16,3.54,0,3.54,0.16,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,A,7.62,10,20,organic,-9999,-9999,-9999,4.68,345.99,0.061,1.173,46.183,0.12,4.69,0,0,0.12,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,A,7.62,20,22,organic,-9999,-9999,-9999,5.6,423.85,0.081,1.162,44.521,0.16,1.8,0.01,0,0.15,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,B,7.62,10,20,organic,-9999,-9999,-9999,5.19,415.65,0.101,1.031,46.909,0.06,3.29,0,0,0.06,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-1,B,7.62,20,28,organic,-9999,-9999,-9999,5.44,441.27,0.091,1.564,46.783,0.1,0.8,0,0,0.1,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,A,7.62,15,20,mineral,43.3,27.5,29.2,6,401.22,0.1,1.297,45.514,0.15,2.65,0.01,0,0.13,"Texture analysis on combined mineral sample TTWBT-3, CoreA, 15-20cm with TTWBT-3 Core B, 20-25cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,B,7.62,20,25,mineral,43.3,27.5,29.2,5.3,305.73,0.169,1.913,45.117,0.12,1.93,0.01,0,0.12,"Texture analysis on combined mineral sample TTWBT-3, CoreA, 15-20cm with TTWBT-3 Core B, 20-25cm"
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,A,7.62,0,10,organic,-9999,-9999,-9999,4.81,284.81,0.062,0.806,49.14,0.3,7,0.07,51.48,0.22,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,A,7.62,10,15,organic,-9999,-9999,-9999,4.92,344.03,0.118,0.925,47.282,0.17,3.31,0.01,0,0.16,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,B,7.62,0,10,organic,-9999,-9999,-9999,5.01,336.22,0.092,1.036,49.204,0.09,2.35,0,0,0.09,NA
+Seward Peninsula,Kougarok,Tussock tundra willow birch tundra,TTWBT-3,B,7.62,10,20,organic,-9999,-9999,-9999,5.56,369.19,0.144,1.183,48.774,0.13,1.09,0,0,0.12,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,B,7.62,10,14,mineral,33,31.2,35.9,5.6,228.82,0.056,1.745,36.073,0.12,6.66,0.01,0,0.12,"Texture analysis on combined WBT-1, CoreA, 14-20cm with WBT-1, Core B, 10-14cm"
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,A,7.62,14,20,mineral,33,31.2,35.9,5.5,293.32,0.165,1.897,37.042,0.07,0.48,0,0,0.06,"Texture analysis on combined WBT-1, CoreA, 14-20cm with WBT-1, Core B, 10-14cm. Bulks soil %C & %N run on Leco "
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,A,7.62,20,30,mineral,42.9,17.5,39.6,6,214.81,0.295,1.659,31.534,0.04,0.37,0,0,0.04,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,A,7.62,0,10,organic,-9999,-9999,-9999,5.4,293.63,0.078,1.707,44.313,0.12,6.67,0,0,0.11,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,A,7.62,10,14,organic,-9999,-9999,-9999,5.82,279.6,0.176,1.661,41.766,0.11,4.2,0.03,0,0.07,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-1,B,7.62,0,10,organic,-9999,-9999,-9999,5.94,282.04,0.06,1.707,44.313,0.09,1.02,0,0,0.09,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-2,A,7.62,10,20,mineral,53.6,20.9,25.5,5,18.96,0.763,0.154,3.75,0.02,0.27,0,0,0.02,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-2,A,7.62,20,24,mineral,56.1,16,28,5.9,19.2,1.419,0.03787,1.1886,0.01,0.42,0,0,0.01,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-2,B,7.62,10,17,mineral,60.1,10.4,29.5,4.7,33.28,0.486,0.424,9.527,0.03,0.72,0,0,0.02,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-2,A,7.62,0,10,organic,-9999,-9999,-9999,4.24,141.91,0.079,1.553,50.394,0.06,1.13,0,37.47,0.06,NA
+Seward Peninsula,Kougarok,Willow birch tundra,WBT-2,B,7.62,0,10,organic,-9999,-9999,-9999,4.74,77.57,0.114,0.793,24.24,0.04,0.56,0,13.9,0.04,NA
