@@ -59,7 +59,7 @@ The contents of the file must be organized in a logical and readable matrix form
 | row 3 column 1 | row 3 column 2 | row 3 column 3 |
 | row 4 column 1 | row 4 column 2 | row 4 column 3 |
 
-The file should have no empty rows so that there are no "skipped" lines or cells.
+The file cannot have empty rows so that there are no "skipped" lines or cells.
 
 **&mdash;Example: Empty Rows and Cells**  
 The third row has an empty cell and the fourth row is empty.
@@ -140,7 +140,7 @@ plot,soil_depth_cm,soil_depth_cm_flag,
 3,-9999,-1
 ```
 
-**9. Provide variable measurement uncertainty, limits of detection, data quality indicators, and other flags.** *OPTIONAL*  
+**9. Provide variable measurement uncertainty, limits of detection, data quality indicators, and other flags.** *RECOMMENDED*  
 Measurement uncertainty, limits of detection, data quality indicators, and other flags should be reported as a separate variable (i.e., in an adjacent column) but within the same row for the corresponding value it describes. If a coding system is used to describe the flags, it must be documented elsewhere.
 
 **&mdash;Example: Limits of Detection**  
@@ -161,7 +161,7 @@ grid,albedo,albedo_flag,
 ```
 
 **10. Provide temporal data in UTC format.** *REQUIRED*  
-All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard ([RFC 3339](https://tools.ietf.org/html/rfc4180)). All times must be preceded with a date.
+All dates and times must be reported in Coordinated Universal Time (UTC) and follow the ISO 8601 standard ([RFC 3339](https://tools.ietf.org/html/rfc4180)). Note that the use of "Z" and "T" characters are unnecessary. All times must be preceded with a date.
 
 In cases where the entire file consists of temporal data collected for a single date and time, the date and time must be documented elsewhere if not provided as a variable.
 
@@ -176,7 +176,7 @@ date,date_time,local_date_time
 ```
 
 **11. Specify timestamps as the start, stop, midpoint, or average of measurement period.** *RECOMMENDED*  
-For timestamped data, the variable name should specify if the measurement is the start, stop, or midpoint or it must be documented elsewhere if not provided as a variable.
+For timestamped data, the variable name should specify if the measurement is the start, stop, or midpoint or it must be documented elsewhere.
 
 **&mdash;Example: Timestamped data where the start and stop times for each record is indicated.**
 ```
