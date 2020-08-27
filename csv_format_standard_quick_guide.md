@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # CSV File format standard Quick Guide
 This page provides a quick guide for the CSV standard. For a more detailed guide see our full documentation of the standard [here](csv_format_standard_documentation_20200818.md). For a downloadable CSV example that adheres to CSV standard click [here](csv_format_standard_demonstration_20200825.xlsx)
 
