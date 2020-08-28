@@ -36,7 +36,7 @@ If a comma is needed within a cell (i.e., the comma is not meant as a delimiter)
 **&mdash;Example: Vertical Bar Used as Comma**  
 ```
 name_1,name_2,name_3,
-Doe|Jane, Simpson|Bart, Smith|John,
+Doe|Jane,Simpson|Bart,Smith|John,
 ```
 
 Alternatively, commas that are not meant to be delimiters must be protected by matching quotation marks (“ or ‘) around the entire value.
@@ -44,7 +44,7 @@ Alternatively, commas that are not meant to be delimiters must be protected by m
 **&mdash;Example: Commas Protected by Quotations**  
 ```
 name_1,name_2,name_3,
-"Doe, Jane", "Simpson, Bart", "Smith, John",
+"Doe, Jane","Simpson, Bart","Smith, John",
 ```
 
 This requirement is necessary for machine readability, as unprotected commas will disrupt the interpretation of columns and rows. If data providers enter their data into programs like Microsoft Excel or Libre Office text cells will be detected and protected by quotiation marks automatically. Data that are output from models or written in a simple text editor might need quotation marks added to text cells manually.
